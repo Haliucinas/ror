@@ -10,5 +10,7 @@ User.create!(
   email: 'admin@example.com',
   password: 'admin123',
   password_confirmation: 'admin123',
-  admin: true
+  admin: true,
+  activated: true,
+  activated_at: Time.zone.now
 )
